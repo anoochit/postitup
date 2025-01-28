@@ -48,3 +48,4 @@ app.*.map.json
 firebase*
 firestore*
 /android/app/google-services.json
+functions
