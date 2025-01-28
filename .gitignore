@@ -49,3 +49,4 @@ firebase*
 firestore*
 /android/app/google-services.json
 functions
+storage*
