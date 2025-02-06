@@ -65,7 +65,7 @@ class BoardView extends GetView<BoardController> {
                     onAcceptWithDetails: (details) async {
                       //
                       log('offset ${details.offset.dx},${details.offset.dy}');
-                      await controller.updatePostIt(
+                      controller.updatePostIt(
                         boardId: controller.id!,
                         postitId: details.data.toString(),
                         left: details.offset.dx,
